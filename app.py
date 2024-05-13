@@ -3,7 +3,7 @@ from vipas import model
 from pprint import pformat
 from vipas.exceptions import UnauthorizedException, NotFoundException
 import json
-def predict_model(input_data):
+def predict_model():
     vps_model_client = model.ModelClient()
     input_data = [6.8, 2.8, 4.8, 1.4]
     model_id = "mdl-qj34oew7utk6z"
